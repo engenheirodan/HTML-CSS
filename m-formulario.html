@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+
+<html>
+
+	<head>
+		<title>Formularios</title>
+    <meta charset="utf-8">
+    <link>
+  </head>
+  <style>
+*{
+  box-sizing: border-box;
+}
+body{
+  margin: 50px;
+  font-size: 19px;
+}
+h1{
+  font-family: "indie Flower";
+}
+label{
+display: block;
+margin-bottom: 20px;
+}
+input[type=text],
+input[type=password],
+input[type=number],
+input[type=datatime-local],
+textarea, select {
+  padding:10px;
+  width: 500px;
+  font-size: 15px;
+  border: 1px solid #CCC;
+  outline: 0;
+  margin-top: 5px;
+}
+textarea {
+  height: 200px;
+  resize: none;
+}
+button{
+  padding: 10px;
+  font-size: 15px;
+  border: 1px solid #cccccc;
+  background-color: #EEE;
+}
+button:hover{
+  background-color: green;
+}
+.termoslink{
+  color: #000;
+  text-decoration: none;
+}
+.termoslink:hover{
+  text-decoration: underline;
+}
+textarea{
+  height: 200px;
+  resize: none;
+}
+
+fieldset{
+  border: 2px solid red;
+  background-color: #EEE;
+  margin-bottom: 20px;
+}
+legend{
+  background-color: red;
+  color: #fff;
+  padding: 5px;
+}
+
+
+
+  </style>
+
+  
+	<body>
+<h1>Area de Cadastro</h1>
+<form action="pagina/login.html" method="GET">
+  <fieldset>
+    <legend>Formularios</legend>
+<label>
+  Nome Completo:<br>
+  <input type="text" name="nome" maxlength="15" placeholder="Digite seu Nome" autofocus required/>
+</label>
+<label>
+  Idade:<br>
+  <input type="number" name="age" maxlength="15" step="2" min="16" max="90"  required/>
+</label>
+<label>
+  Data:<br>
+  <input type="datetime-local"  required/>
+</label>
+<label>
+  Senha:<br>
+  <input type="password" name="password" minlength="6" placeholder="Digite uma senha de 6 digitos" required/>
+</label>
+<label>
+  Descrição:<br>
+  <textarea name="descricao" placeholder="Faça uma breve descrição" autocomplete="on"></textarea>
+</label>
+<label>
+  Categoria: <br>
+  <select name="categoria">
+    <option value="1">Categoria1</option>
+    <option value="2">Categoria2</option>
+    <option value="3">Categoria3</option>
+    <option value="4">Categoria4</option>
+    <option value="5">Categoria5</option>
+  </select>
+</label>
+<label>
+<input type="checkbox" />
+Eu declaro que li e aceito os <a href="paginas/elite.html" target="_blank" title="ola">ola</a>
+
+</label>
+
+
+<button>Fazer Cadastro</button>
+
+
+
+</fieldset>
+
+</form>
+
+	</body>
+ 
+</html>

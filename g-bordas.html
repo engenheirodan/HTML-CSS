@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Bordas</title>
+		<meta charset="utf-8">
+
+		<style type="text/css">
+			:root{
+        --bg-color: #2383c5;
+      }
+			#conteudo {
+				/*
+				border: 15px outset red;*/
+				border-color: red green yellow blue;/*cores da borda*/
+				border-width: 15px 10px 8px 3px;/*tamanhos da borda*/
+				border-style: solid dotted dashed outset;/*estilo da borda*/
+			}
+      div#casa{
+        background-color: red;
+        width: 200px;
+        height: 200px;
+        border-radius: 200px;
+        border: 3px solid darkblue;
+        text-align: center;
+      }
+      div#casa > p{
+        padding: 60px 0px 80px 0px;
+      }
+      #apartamento{
+        width: 300px;
+        height: 300px;
+        background-color: darkblue;
+        border: 3px solid;
+        margin-top: 50px;
+      }
+      h5{
+       color: var(--bg-color);
+       border-bottom: double 4px red;/*estilo borda dupla*/
+      }
+      h6{
+        border-top: 1px dotted;/*borda acima*/
+        display: table;
+    white-space: nowrap;
+      }
+      h2{
+        border-right:  2px outset;/*borda lateral*/
+      }
+		</style>  
+	</head>
+	<body>
+
+		<div id="conteudo">
+			Bordas<br>
+			Bordas<br>
+			Bordas<br>
+    </div>
+    <div id="casa"><p>ola</p></div>
+    <div id="apartamento"><p>ola</p></div>
+    <h5>OLa</h5>
+    <h6>cade</h6>
+    <h2>ys</h2>
+
+	</body>
+</html>

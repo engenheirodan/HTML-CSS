@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Herança</title>
+  <meta charset="utf-8">
+</head>
+<style>
+/***************************************
+ Herança e especificidade */
+
+
+ * {
+ 	/*color: red;/*seleciona todos os elementos do html*/
+ }
+ h2 {/*3*/
+ 	color: blue; /*seleciona somente o h2*/
+ }
+
+ section h2 {/*2*/
+ 	color: green;/*seleciona os elementos que são filhos da classe verde*/
+ }
+
+ footer h4{/*1*/
+ 	color: yellow;/*seleciona os elementos que são filhos {do} id amarelo*/
+ }
+li > a {
+color: pink;/*seleciona quaisquer elementos que são filhos do elemento mencionado*/
+}
+h6+p{
+font-size: 30px;/*seleciona o primeiro elemento depois de qualquer elemento do h6 */
+}
+h3~p {
+  color: cyan;/*aplica regra de irmandade a seleção de todos os elementos que são irmaos*/
+}
+
+div:nth-child(2){
+  border: 1px solid red;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+
+
+
+</style>
+<body>
+
+<div>Texto 1</div>
+<div>Texto 2</div>
+<div>Texto 3</div>
+<div>Texto 4</div>
+
+<h2>Herança</h2>
+<h6>Herança</h6>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec non ullamcorper felis, ut sodales magna. Fusce eget lectus velit. Quisque semper ut orci ut mattis. Quisque quis justo lorem. Aenean facilisis, sem id interdum porttitor, tellus ligula pretium turpis, quis rutrum erat arcu vitae nunc. Duis a eros orci. Praesent commodo nunc eget laoreet sollicitudin.</p>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec non ullamcorper felis, ut sodales magna. Fusce eget lectus velit. Quisque semper ut orci ut mattis. Quisque quis justo lorem. Aenean facilisis, sem id interdum porttitor, tellus ligula pretium turpis, quis rutrum erat arcu vitae nunc. Duis a eros orci. Praesent commodo nunc eget laoreet sollicitudin.</p>
+<p>Curabitur mattis nunc et est tincidunt, eu porta libero commodo. Pellentesque mollis id nibh ut aliquet. Fusce vulputate nisi sit amet velit commodo, et tristique diam placerat. Etiam non risus venenatis, tincidunt justo nec, interdum dui. Donec eget neque nulla. Vivamus vitae dui dolor. Fusce commodo tincidunt blandit. Suspendisse aliquam, arcu et consequat lobortis, augue dui vestibulum massa, non tristique dui metus vitae justo.</p>
+<h3>Tets</h3>
+<p>sou um teste</p>
+<p>sou outro testeS</p>
+<section>
+  <h2>AWE</h2>
+</section>
+<footer>
+
+<H4>olA</H4>
+
+</footer>
+<div>
+
+
+
+
+
+
+
+
+
+</div>
+
+
+
+
+</body>
+
+
+</html>

@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset='utf-8'>
+	<meta http-equiv='X-UA-Compatible' content='IE=edge'>
+	<title>Flexbox</title>
+	<meta name='viewport' content='width=device-width, initial-scale=1'>
+	<link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+	<script src='main.js'></script>
+</head>
+<style>
+.caixa{
+display: flex;/*flexbox linha*/
+flex-direction: row;/*row significa linha, row-reserve é em forma de linha da direita pra esquerda, colum-reverse invertido, colluns significa coluna*/
+background-color: red;
+
+}
+.caixa2{
+display: flex;/*flexbox linha*/
+flex-direction: column;/*row significa linha, row-reserve é em forma de linha da direita pra esquerda, colum-reverse invertido, colluns significa coluna*/
+background-color: red;
+
+}
+.caixa3{
+display: flex;/*flexbox linha*/
+flex-direction: row;/*row significa linha, row-reserve é em forma de linha da direita pra esquerda, colum-reverse invertido, colluns significa coluna*/
+background-color: red;
+margin: 10px;
+
+}
+.caixa4{
+display: flex;/*flexbox linha*/
+flex-direction: row;/*row significa linha, row-reserve é em forma de linha da direita pra esquerda, colum-reverse invertido, colluns significa coluna*/
+background-color: red;
+margin: 30px;
+
+}
+
+.caixa div{
+	flex-direction: row;
+	background-color: yellow;
+	margin: 10px;
+	padding: 10px;
+	font-size: 20px;
+}
+
+.caixa2 div{
+	background-color: yellow;
+	margin: 10px;
+	padding: 10px;
+	font-size: 20px;
+
+}
+.caixa3 div{
+	flex: 1;/*defini o mesmo tamanho pra caixa e ocupam o mesmo tamanho*/
+	background-color: blue;
+	margin: 10px;
+	padding: 10px;
+	font-size: 20px;
+	
+}
+/*tamanho das caixas */
+.div1{
+	flex: 1;
+	background-color: cyan;
+	margin: 10px;
+	padding: 10px;
+	font-size: 18px;
+}
+.div2{
+	flex: 2;
+	background-color: cyan;
+	margin: 10px;
+	padding: 10px;
+	font-size: 18px;
+}
+.div3{
+	flex: 3;
+	background-color: cyan;
+	margin: 10px;
+	padding: 10px;
+	font-size: 18px;
+}
+.div4{
+	flex: 4;
+	background-color: cyan;
+	margin: 10px;
+	padding: 10px;
+	font-size: 18px;
+}
+.container {
+display: flex;
+width: 500px;
+height: 500px;
+background-color: pink;
+margin: 10px;
+flex-direction: row;
+justify-content: center;/*alinhando componentes*/
+align-items: flex-start;
+
+}
+.container div{
+	background-color: purple;
+	margin: 10px;
+	padding: 10px;
+	font-size: 30px;
+	width: 300px;
+	height: 300px;
+}
+</style>
+
+
+<body>
+	<div class="caixa">
+	 <div>1</div>
+	 <div>2</div>
+	 <div>3</div>
+	</div><br><br>
+	
+	<div class="caixa2">
+		<div>1</div>
+		<div>2</div>
+		<div>3</div>
+	 </div><br><br>
+	 <div class="caixa3">
+		<div>1</div>
+		<div>2</div>
+		<div>3</div>
+	 </div><br><br>
+	 <!--DIVISAO DAS CAIXAS NO HTML-->
+ <div class="caixa4">
+			<div class="div1">1</div>
+			<div class="div2">2</div>
+			<div class="div3">3</div>
+			<div class="div4">4</div>
+ </div>
+	 <div class="container">
+		 <div>1</div>
+		 <div>2</div>
+		 <div>3</div>
+		 <div>4</div>
+		 <div>5</div>
+		 <div>6</div>
+		 <div>7</div>
+		 <div>8</div>
+		 <div>9</div>
+		 <div>10</div>
+</body>
+</html>

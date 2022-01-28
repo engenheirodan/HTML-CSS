@@ -1,0 +1,71 @@
+
+<!DOCTYPE html>
+
+<html>
+
+	<head>
+		<title>CABEÇALHO</title>
+		<meta charset="utf-8">
+	</head>
+<style>
+@media (max-width: 499px){
+  body{
+    background-color: aqua;
+  }
+}
+@media (min-width: 501px) and (max-width: 800px){
+  body{
+    background-color:yellow;
+  }
+}
+
+@media (min-width: 801px) and (max-width: 900px){
+  body{
+    background-color:blue;
+  }
+}
+
+@media (min-width: 901px) and (max-width: 1200px){
+  body{
+    background-color:green;
+  }
+}
+
+@media (min-width: 1201px){
+  body{
+    background-color: pink;
+  }
+}
+/*aplicando css somente na hora de imprimir */
+@media only print{
+
+h1{
+  font-size: 100px;
+  color: blue;
+
+}
+  body{
+    background-color: white;
+  }
+}
+/*ele mostra um css na tela e quando imprimir mostra outro */
+@media only screen{
+  h1{
+    font-family: 'Courier New', Courier, monospace;
+    color: red;
+    font-size: 300px;
+  }
+}
+
+
+</style>
+	<body>
+
+		<h1>Sobre a empresa</h1>
+
+
+
+		
+	</body>
+
+</html>

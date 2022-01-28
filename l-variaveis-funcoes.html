@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+
+<html>
+
+	<head>
+		<title>Variaveis e Funções</title>
+    <meta charset="utf-8">
+    <link>
+  </head>
+  <style>
+:root {
+  --cor: red!important; 
+  --bg-color: #2383c5;
+  --font-color: rgb(255, 0, 255);
+  --tipo-um: solid;
+  --tipo-dois: dotted;
+  --tipo-tres: dashed;
+  --minha-altura: 500em;
+  --minha-margem: 20px;
+  --minha-cor-fundo: #0f0;
+  --meu-text-align: center;
+}
+
+body{
+  background-color: var(--bg-color);
+
+}
+p{
+  color: var(--font-color);
+}
+
+#box{
+width: calc(100% - 20px);/*calculo que matem a mesma aparencia nao importando a tela*/
+height: 300px;
+background-color: red;
+}
+  </style>
+
+  
+	<body>
+  <p>Lista</p>
+  <div id="box"></div>
+	</body>
+ 
+</html>
