@@ -2,6 +2,9 @@
 Conhecimentos de HTML + CSS 
 */*Lista de sites e ferramentas uteis front end
 
+https://getwaves.io/
+Gerador de Canvas
+
 https://registro.br/tecnologia/ferramentas/whois/
 consultar registro de dominios
 
