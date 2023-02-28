@@ -33,6 +33,8 @@ https://css.glass/
 Blobmaker.app: esse site cria formas alteatorias.
 http://blobmaker.app/
 --------------------------------------------------------
+clonar o html de sites pagos: https://www.templatemonster.com/pt-br/html5-website-templates/
+-----------------------------------------------------------
 
 https://registro.br/tecnologia/ferramentas/whois/
 consultar registro de dominios
