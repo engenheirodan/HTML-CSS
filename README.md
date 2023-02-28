@@ -4,13 +4,35 @@ Conhecimentos de HTML + CSS
 ____________________________________________________________________________________________________________________________________________________________
 LISTA DE SITES UTEIS PARA DESENVOLVIMENTO WEB
 
-layout Grid
+layout Grid: esse é um gerador de grid css. Ajuda a obter o código com base no layout projetado para o seu site.
 
 https://grid.layoutit.com/
 ---------------------------------------------
+Gerador de Canvas: esse é um gerador de ondas SVG. Basta escolher a curvatura e ajustar da forma que quiser.
 
 https://getwaves.io/
-Gerador de Canvas
+---------------------------------------------
+
+CSS GRID: esse é um gerador de gradientes mostra uma transição de duas ou mais cores.
+
+https://cssgradient.io/
+----------------------------------------------------
+keyframes: esse site ajuda a criar animações 
+
+
+https://keyframes.app/
+---------------------------------------------------
+bennettfeely: esse site ajuda a criar formas em css
+
+https://bennettfeely.com/clippy/
+----------------------------------------------------------
+GlassMorphism: esse site cria efeito de vidro fosco
+
+https://css.glass/
+-----------------------------------------------------------
+Blobmaker.app: esse site cria formas alteatorias.
+http://blobmaker.app/
+--------------------------------------------------------
 
 https://registro.br/tecnologia/ferramentas/whois/
 consultar registro de dominios
