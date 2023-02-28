@@ -29,13 +29,12 @@ https://bennettfeely.com/clippy/
 GlassMorphism: esse site cria efeito de vidro fosco
 
 https://css.glass/
------------------------------------------------------------
+__________________________________________________________________
 Blobmaker.app: esse site cria formas alteatorias.
 http://blobmaker.app/
---------------------------------------------------------
-clonar o html de sites pagos: https://www.templatemonster.com/pt-br/html5-website-templates/
------------------------------------------------------------
-
+____________________________________________________________________
+clonar o html de sites pagos: https://www.templatemonster.com/pt-br/html5-website-templates/ ou https://templatemo.com/tm-559-zay-shop
+___________________________________________________________________
 https://registro.br/tecnologia/ferramentas/whois/
 consultar registro de dominios
 
