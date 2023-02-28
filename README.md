@@ -4,6 +4,9 @@ Conhecimentos de HTML + CSS
 ____________________________________________________________________________________________________________________________________________________________
 LISTA DE SITES UTEIS PARA DESENVOLVIMENTO WEB
 
+layout Grid
+
+https://grid.layoutit.com/
 
 https://getwaves.io/
 Gerador de Canvas
