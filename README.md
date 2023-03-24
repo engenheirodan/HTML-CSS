@@ -29,6 +29,14 @@ https://bennettfeely.com/clippy/
 GlassMorphism: esse site cria efeito de vidro fosco
 
 https://css.glass/
+-------------------------------------------------------------
+Site para gerar html de forma dinamica
+
+https://html-css-js.com/
+--------------------------------------------------------------
+site usado para gerar css de forma dinamica
+
+https://animate.style/
 __________________________________________________________________
 Blobmaker.app: esse site cria formas alteatorias.
 http://blobmaker.app/
