@@ -38,6 +38,10 @@ site usado para gerar css de forma dinamica
 
 https://animate.style/
 __________________________________________________________________
+Animaçõpes em CSS:
+
+http://michalsnik.github.io/aos/
+_____________________________________________________________________
 Blobmaker.app: esse site cria formas alteatorias.
 http://blobmaker.app/
 ____________________________________________________________________
