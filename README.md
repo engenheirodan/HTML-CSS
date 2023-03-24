@@ -41,6 +41,11 @@ __________________________________________________________________
 Animaçõpes em CSS:
 
 http://michalsnik.github.io/aos/
+
+----------------------------------------------------------------------
+Metatags compartilhamento redes sociais
+
+https://metatags.io/
 _____________________________________________________________________
 Blobmaker.app: esse site cria formas alteatorias.
 http://blobmaker.app/
