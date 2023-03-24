@@ -38,11 +38,16 @@ site usado para gerar css de forma dinamica
 
 https://animate.style/
 __________________________________________________________________
-Animaçõpes em CSS:
+Transições  em CSS:
 
 http://michalsnik.github.io/aos/
 
 ----------------------------------------------------------------------
+
+Hospedagem de sites gratuitamente 
+
+https://www.netlify.com/
+----------------------------------------------------------------------------
 Metatags compartilhamento redes sociais
 
 https://metatags.io/
