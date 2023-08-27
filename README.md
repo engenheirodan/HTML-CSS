@@ -8,6 +8,10 @@ layout Grid: esse é um gerador de grid css. Ajuda a obter o código com base no
 
 https://grid.layoutit.com/
 ---------------------------------------------
+Responsividade dos sites
+http://whatismyscreenresolution.net/multi-screen-test
+-------------------------------------------------------
+
 Gerador de Canvas: esse é um gerador de ondas SVG. Basta escolher a curvatura e ajustar da forma que quiser.
 
 https://getwaves.io/
