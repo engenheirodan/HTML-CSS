@@ -1,0 +1,25 @@
+<div id="boxes">
+  <div id="dialog2" class="window">
+    <div align="right">
+      <span class="close"> X </span>
+    </div>
+
+    <!-- div class="pop">
+            <a href="https://vestibularmetodista.com.br" target="_blank" class="btpresencial" title="Inscrições Gratuítas Presencial">INSCRIÇÕES GRATUITAS PRESENCIAL</a>
+            <a href="https://vestibularmetodista.com.br" class="btead" target="_blank" title="Inscrições Gratuitas a Distância">INSCRIÇÕES GRATUITAS EAD</a>
+        </div-->
+
+    <div class="pop">
+    <h3><center>Atenção!</center> </h3>
+<p><br><br>
+Informamos que a Central de Atendimento ao Calouro (CAC) e a Central de Atendimento ao Aluno (CAE) irão funcionar até às 16h no dia 22 de dezembro de 2023. 
+<br><br>
+Não haverá expediente entre os dias 23 de dezembro até 07 de janeiro de 2024. O atendimento voltará ao normal no dia 8 de janeiro, das 9h30 às 20h.
+<br><br>
+Qualquer dúvida, entre em contato com o nosso  <a href="https://metodista.br/fale-conosco" target="_blank" title="Loop Nerd"> Fale Conosco</a>  </p>
+   <br><br><br>
+    </div>
+  </div>
+
+  <div id="mask"></div>
+</div>
