@@ -1,0 +1,119 @@
+<style>
+    @media (max-width: 768px) {
+    .modal-dialog {
+        display: none;
+    }
+}
+
+.modal {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1050;
+    overflow: hidden;
+    outline: 0;
+}
+
+.show {
+    display: block !important;
+}
+
+.modal-content {
+    border: 0;
+    box-shadow: none;
+    border-radius: 30px;
+}
+
+.modal-dialog {
+    border: none;
+    width: 500px;
+    margin: 30px auto;
+}
+
+.modal-header {
+    padding: 0;
+    border-bottom: none;
+}
+
+.modal-body {
+    padding: 0;
+    background-color: transparent;
+    
+}
+
+.modal-body img {
+    width: 500px;
+    border-radius: 20px;
+}
+
+.modal-body button {
+    position: relative;
+    opacity: initial;
+    color: white;
+    font-size: 20px;
+    top: 40px;
+    left: -15px;
+    width: 150px;
+    height: 35px; 
+    margin-bottom: 5px;
+    text-shadow: none;
+    background: 0 0;
+    padding: 0;
+    cursor: pointer;
+    border: 1px solid transparent;
+    background-color: rgba(255, 0, 0, .8 );
+    border-radius: 5px;
+    float: right;
+}
+
+.modal-body button:hover {
+    background-color: rgb(119, 13, 13);
+}
+
+
+/* Definir o elemento que irá piscar */
+.elemento-piscando {
+  animation: piscar 1s infinite;
+}
+
+/* Definir a animação */
+@keyframes piscar {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+
+    </style>
+<div class="containerModal">
+<div class="modal show" id="myModal" role="dialog">
+    <div class="modal-dialog">   
+ <div class="modal-content">  
+        <div class="modal-body">
+        <button type="button" id="close" class="close elemento-piscando" data-dismiss="modal">Fechar</button>
+          <div style="background-color: #2383c5; border-radius: 30px; width: 500px; height: 300px;margin-bottom: 30px; color: #fff;">
+            <br><br><span style="margin: 30px;"><h1 style="margin-top: 30px;text-align: center;color: #fff">O acesso ao Moodle <br> pode ser feito por  <br><br> <a href="https://portalead.metodista.br/custom/login/index.php" class="button" target="_blank" style="background-color: aliceblue;text-align: center;border-radius: 20px;padding: 30px;">portalead.metodista.br</a></h1></span> 
+           
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+
+    document.getElementById("close").onclick = function(){
+    document.querySelector(".containerModal").style.display = "none";
+  }
+</script>
+
+<!-- FIM POU UP -->
